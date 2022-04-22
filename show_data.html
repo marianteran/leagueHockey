@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- estyle css -->
+    <link rel="stylesheet" href="css/mdhl3.css" />
+    <!-- fontawesome library -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet" />
+
+    <title>Registration</title>
+</head>
+
+<body id="show_data">
+    <header>
+        <div class="contenedor">
+            <div class="logo">
+                <img src="img/LogoMightyducks-01.png" alt="" width="180" />
+            </div>
+
+            <div class="titulo">
+                <p>
+                    <span> Mighty Ducks Hockey League </span>
+                </p>
+            </div>
+            <div class="logo">
+                <img src="img/LogoMightyducks-01.png" alt="" width="180" />
+            </div>
+        </div>
+    </header>
+    <!-- navegation -->
+    <nav class="nav">
+        <ul class="nav-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="rules.html">Rules</a></li>
+            <li><a href="game_info.html">Game</a></li>
+            <li><a href="registration.html">Registration</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+
+
+
+        <p>&nbsp;</p>
+        <h1>The following information has been sent as your
+            feedback:
+        </h1>
+
+        <table class="show_data">
+            <tr>
+                <th >Form Field</th>
+                <th >Field Value</th>
+            </tr>
+            <script language="javascript">
+                var args = location.search.substr(1).split('&');
+                for (var i = 0; i < args.length; ++i) {
+                    var parts = args[i].split('=');
+                    if (parts != null) {
+                        var field = parts[0];
+                        var value = parts[1];
+                        if (value == null) {
+                            value = "null"
+                        }
+                        else {
+                            value = '"' + unescape(value.replace(/\+/g, ' ')) + '"';
+                        }
+
+                        document.writeln('<tr><td align="center">' + field + '</td>');
+                        document.writeln('<td align="center">' + value + '</td></tr>');
+                    }
+                }
+            </script>
+
+        </table>
+
+
+
+
+    </main>
+
+    <!-- section msn -->
+
+    <section class="social">
+        <h4>Follow News</h4>
+        <div class="links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="copy">
+            <span>Copyright 2021</span>
+        </div>
+
+        <div class="sponsor">
+            <h4>Sponsor</h4>
+            <ul>
+                <li><a href="https://mindhubweb.com/">MINDHUB</a></li>
+                <li><a href="https://fundacionacnur.org/">ACNUR</a></li>
+                <li><a href="https://www.accenture.com/ar-es">ACCENTURE</a></li>
+            </ul>
+        </div>
+
+        <div class="developer">
+            <span>Developer Marianela Terán</span>
+        </div>
+    </footer>
+</body>
+
+</html>
