@@ -50,5 +50,5 @@ Both pages need to use valid HTML and CSS code.
 
 Presentation of the sketch to the client
 
-#### * [Technologie name]
+#### Technologie and Library
 This project was made using html for the structure and ccs for the styles, without the use of libraries.
