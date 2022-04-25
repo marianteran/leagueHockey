@@ -49,3 +49,6 @@ Both pages need to use valid HTML and CSS code.
 ##### Final task
 
 Presentation of the sketch to the client
+
+#### * [Technologie name]
+This project was made using html for the structure and ccs for the styles, without the use of libraries.
