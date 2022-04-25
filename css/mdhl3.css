@@ -4,13 +4,15 @@
   box-sizing: border-box;
 }
 
-body {
+.backgroungPage {
 
   background-image: linear-gradient(
       rgba(130, 207, 201, 0.5),
       rgba(243, 241, 241, 0.918)
     ),
     url("../img/hockey3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
@@ -219,7 +221,7 @@ p span {
 /* section social */
 
 .social {
-  margin: 50px;
+  padding: 50px;
 }
 
 .social h4 {
@@ -717,9 +719,14 @@ table .show_data{
   
   @media screen and (min-width: 768px) and (max-width: 991px) {
 
-   
+    #about .main-content  {
+      margin-right: 0;
+    }
 
-
+    #rules{
+      padding: 60px;
+    }
+  
   
   }
   
@@ -753,10 +760,22 @@ table .show_data{
     width: 60%;
   }
 
+  #about .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
 
+  }
 
+  #about .main-content  {
+    margin-right: 0;
+  }
 
-
+  #rules{
+    padding: 40px;
+  }
 
   
 
