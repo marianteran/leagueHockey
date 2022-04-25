@@ -1,4 +1,4 @@
-# leagueHockey
+# League Hockey
 
 First challenge made for minhub with the following specifications
 
