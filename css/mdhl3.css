@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+.responsive-button{
+  display: none;
+}
+
 .backgroungPage {
 
   background-image: linear-gradient(
@@ -172,7 +176,7 @@ p span {
   align-items: center;
   justify-content: flex-end;
   margin: 10px 150px 10px 0px;
-  border: 5px solid blueviolet;
+  
 }
 
 .news-card1 img:hover,
@@ -726,7 +730,62 @@ table .show_data{
     #rules{
       padding: 60px;
     }
+
+
+    #game {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0 !important;
+      margin: 0 !important;
+    }
+
+    #game table  {
+
+      width: 85% !important;
   
+    }
+  
+    .direction{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+  
+    .direction_box {
+  
+      width: 100%;
+      margin: 5px;
+  
+    }
+
+
+
+    fieldset{
+
+      width: 80%;
+
+    }
+
+    .nav{
+      justify-content: flex-start !important;
+    }
+
+    .nav-menu {
+      display: flex;
+      flex-direction: column !important;
+    
+
+    }
+
+    .nav ul li {
+      margin-bottom: 30px;
+    }
+
+    
   
   }
   
@@ -777,32 +836,183 @@ table .show_data{
     padding: 40px;
   }
 
+  #game {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
   
+  #game table  {
+
+    width: 85% !important;
+
+  }
+
+  .direction{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .direction_box {
+
+    width: 100%;
+    margin: 5px;
+    padding: 0 10px;
+
+  }
+
+  .game-cont{
+    padding: 0 15px;
+  }
+
+
+  
+  fieldset{
+
+    width: 80%;
+
+  }
+
+  .nav{
+    justify-content: flex-start !important;
+  }
+
+  .nav-menu {
+    display: flex;
+    flex-direction: column !important;
+  
+
+  }
+
+  .nav ul li {
+    margin-bottom: 30px;
+  }
+
+  .text-game{
+    text-align: center;
+  }
+
 
 }
 
 
 
-
   
   
-  
+  @media screen and (max-width: 421px) {
    
-  
-  
-  @media screen and (min-width: 421px) and (max-width: 574px) {
-
-  
-
+    .news-info2, .news-info3, .news-info1 {
+      flex-direction: column;
+      justify-content: center !important;
+      align-items: center;
+      width: 100%;
+      margin: 50px 0!important;
     
-    
-  
+    }
+
+ .caja{
+   width: 80%;
+   margin-bottom: 15px;
+ }
+
+ p span {
+  font-size: 1.5em;
+
+}
+
+.logo{
+  padding: 20px;
+}
+
+  .logo img{
+    width: 60%;
   }
-  
-  
-  @media screen and (max-width: 420px) {
-   
 
+  #about .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+
+  }
+
+  #about .main-content  {
+    margin-right: 0;
+  }
+
+  #rules{
+    padding: 40px;
+  }
+
+  #game {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  
+  #game table  {
+
+    width: 85% !important;
+
+  }
+
+  .direction{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .direction_box {
+
+    width: 100%;
+    margin: 5px;
+    padding: 0 10px;
+
+  }
+
+  .game-cont{
+    padding: 0 15px;
+  }
+
+  
+  fieldset{
+
+    width: 80%;
+
+  }
+
+  .nav{
+    justify-content: flex-start !important;
+  }
+
+  .nav-menu {
+    display: flex;
+    flex-direction: column !important;
+  
+
+  }
+
+  .nav ul li {
+    margin-bottom: 30px;
+  }
+
+  .text-game{
+    text-align: center;
+  }
 
   }
 
