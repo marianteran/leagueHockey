@@ -1,6 +1,6 @@
 # League Hockey
 
-First challenge made for minhub with the following specifications
+First individual challenge made for minhub with the following specifications
 
 ## General Info
 
